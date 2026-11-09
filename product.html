@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Беспроводные наушники — карточка товара</title>
+  <meta name="description" content="Описание, цена и технические характеристики беспроводных наушников.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body id="top">
+  <a class="skip-link" href="#content">К содержимому</a>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-header__logo" href="index.html">ShopProject</a>
+      <nav class="site-nav" aria-label="Основная навигация">
+        <ul class="site-nav__list">
+          <li class="site-nav__item"><a class="site-nav__link" href="index.html">Главная</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="catalog.html">Каталог</a></li>
+          <li class="site-nav__item"><a class="site-nav__link site-nav__link--active" aria-current="page" href="product.html">Товар</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="order.html">Заявка</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="page" id="content" tabindex="-1">
+    <nav class="breadcrumbs" aria-label="Хлебные крошки">
+      <a href="index.html">Главная</a>
+      <span>Товар</span>
+    </nav>
+
+    <h1>Беспроводные наушники</h1>
+    <article class="product-page">
+      <picture>
+        <source type="image/webp" srcset="images/product-320.webp 320w, images/product-447.webp 447w"
+          sizes="(min-width: 768px) 50vw, 100vw">
+        <img class="product-page__image" src="images/product.jpg" alt="Беспроводные наушники" width="447" height="447">
+      </picture>
+      <div class="product-page__info">
+        <p>Лёгкие полноразмерные наушники с активным шумоподавлением и зарядным кейсом. Подходят для работы, учёбы и поездок.</p>
+        <p class="product-page__price">3 500 руб.</p>
+        <a class="button" href="order.html">Оставить заявку</a>
+      </div>
+    </article>
+
+    <section class="section">
+      <h2>Характеристики</h2>
+      <div class="table-wrapper" tabindex="0" role="region" aria-label="Характеристики товара">
+      <table class="specs-table">
+        <caption class="specs-table__caption">Технические характеристики товара</caption>
+        <thead>
+          <tr>
+            <th scope="col">Параметр</th>
+            <th scope="col">Значение</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">Тип подключения</th><td>Bluetooth 5.3</td></tr>
+          <tr><th scope="row">Время работы</th><td>до 30 часов с кейсом</td></tr>
+          <tr><th scope="row">Шумоподавление</th><td>активное</td></tr>
+          <tr><th scope="row">Вес</th><td>250 г</td></tr>
+          <tr><th scope="row">Гарантия</th><td>12 месяцев</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" id="contacts">
+    <div class="site-footer__inner">
+      <p>&copy; 2026 Учебный проект. Все права защищены.</p>
+      <p>Дисциплина: Фронтенд и бэкенд разработка</p>
+      <p>Тел.: +7 (495) 000-00-00 &middot; <a href="contacts.html">Контакты</a></p>
+    </div>
+  </footer>
+  <a class="to-top" href="#top">Наверх</a>
+</body>
+</html>
